@@ -41,11 +41,19 @@ import java.util.List;
 @RestController
 @RequestMapping("/test/jeecgDemo")
 public class JeecgDemoController extends JeecgController<JeecgDemo, IJeecgDemoService> {
-    @Autowired
-    private IJeecgDemoService jeecgDemoService;
 
     @Autowired
+    private IJeecgDemoService jeecgDemoService;
+    @Autowired
     private RedisUtil redisUtil;
+
+    @GetMapping("/hello")
+    public Result<String> hello() {
+        Result<String> result = new Result<>();
+        result.setResult("hello Arvin!");
+        result.setSuccess(true);
+        return result;
+    }
 
     /**
      * 分页列表查询
