@@ -346,6 +346,8 @@
 		</resources>
 	</build>
     <!-- 环境 -->
+	<!-- Maven环境配置，对标 spring.profiles，details: https://maven.apache.org/guides/introduction/introduction-to-profiles.html -->
+	<!-- TODO 原理 & 触发规则 -->
     <profiles>
         <!-- 开发 -->
         <profile>
