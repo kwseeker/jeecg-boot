@@ -2,3 +2,6 @@
 /.idea/
 *.iml
 rebel.xml
+
+script/*.log
+script/dump.rdb

@@ -25,5 +25,12 @@
             <groupId>org.jeecgframework.boot</groupId>
             <artifactId>jeecg-boot-starter-job</artifactId>
         </dependency>-->
+
+        <!-- 这里只是学习testng引入的 -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.4.0</version>
+        </dependency>
     </dependencies>
 </project>
